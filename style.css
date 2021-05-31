@@ -1,0 +1,218 @@
+*{
+margin: 0; padding: 0;
+
+}
+
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('quiksandLightFont/quicksand_light-webfont.eot');
+    src: url('quiksandLightFont/quicksand_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('quiksandLightFont/quicksand_light-webfont.woff') format('woff'),
+         url('quiksandLightFont/quicksand_light-webfont.ttf') format('truetype'),
+         url('quiksandLightFont/quicksand_light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'montezregular';
+    src: url('montez_regular_macroman/Montez-Regular-webfont.eot');
+    src: url('montez_regular_macroman/Montez-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('montez_regular_macroman/Montez-Regular-webfont.woff') format('woff'),
+         url('montez_regular_macroman/Montez-Regular-webfont.ttf') format('truetype'),
+         url('montez_regular_macroman/Montez-Regular-webfont.svg#montezregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/***********************body***********************************/
+body{
+background-color: #f3f2f1;
+}
+
+
+/****************le corps de la page**************************/
+#corps{
+width: 993px;
+height: 1507px;
+margin: auto;
+background-color: white;
+border-left: solid 0.5px lightgray;
+border-right: solid 0.5px lightgray;
+}
+/**********************menu principal*************************/
+
+.blocmenu {
+background-color: #681319;
+position: fixed;
+z-index: 1;
+height: 45px;
+width: 100%;
+margin-top: 65px;
+box-shadow: bottom gray;
+}
+
+#menu{
+margin-left: 320px;
+}
+
+#menu li{
+list-style-type: none;
+display: inline;
+margin-left: 35px;
+}
+
+#menu li a {
+text-decoration: none;
+line-height: 45px;
+color: white;
+}
+
+#menu li a:hover{
+color: black;
+}
+
+/*******************titre h1******************************/
+#titre{
+font-family: 'quicksandlight', normal, serif ;
+font-size: 50px;
+position: absolute;
+color: #767b79;
+top: 115px;
+left: 285px;
+text-align: center;
+}
+/**********************header*****************************/ 
+#entete{
+height: 370px;
+margin-top: -65px;
+background-image: url("logosite_cedd.png");
+background-image: url("backfoto.jpg");
+background-repeat: no-repeat;
+border-bottom: solid 0.5px lightgray;
+}
+
+/***********************logo du site***********************/
+#logo{
+position: fixed;
+z-index: 2;
+margin-top: 80px;
+background-repeat: no-repeat;
+display: block;
+margin-left: 10px;
+
+}
+/***********************le sous menu************************/
+#soumenu {
+position: absolute;
+z-index: 3;
+margin-top: 345px;
+margin-left: 600px;
+}
+#soumenu li{
+list-style-type: none;
+display: inline;
+}
+#soumenu li a{
+text-decoration: none;
+color: #681319;
+}
+#soumenu li a:hover{
+color: green;
+}
+/********************section mère***************************************************/
+.mother{
+margin-left: 10px;
+margin-top: 10px;
+}
+.mother h2{
+color: #681319;
+margin-top: 40px;
+padding-bottom: 30px;
+font-family: 'quicksandlight', normal;
+}
+.mother h3{
+color: #767b79;
+padding-bottom: 10px;
+font-family: 'quicksandlight', normal;
+}
+.mother p{
+color: #767b79;
+font-size: 0.8em;
+font-family: 'quicksandlight', normal;
+}
+.mother img{
+padding-left: 5px;
+}
+.mother a{
+color: #767b79;
+}
+
+/*******************article 3****************************************/
+.act3{
+display: inline-block;
+margin-bottom: 80px;   
+}
+
+/***************************article4*****************************************/
+.act4{
+display: inline-block;
+margin-bottom: 220px;
+}
+
+
+/*****************************footer********************************************/
+footer{
+width: 970px;
+height: 170px;
+background-color: #f3f2f1;
+margin-left: 10px;
+margin-top: 30px;
+border: solid 1px lightgray;
+}
+
+footer ul{
+margin-left: 10px;
+margin-top: 30px;
+}
+footer ul li {
+list-style-type: none;
+}
+
+footer ul li a{
+text-decoration: none;
+color: #767b79;
+}
+
+footer h4 a{
+position: absolute;
+margin-left: 800px;
+margin-top: 13px;
+color: gray;
+text-decoration: none;
+}
+footer h4 a:hover{
+color: black;
+}
+footer p{
+position: absolute;
+color: #767b79;
+margin-left: 800px;
+margin-top: -120px;
+}
+
+/*******reseaux sociaux*********/
+#rsociaux{
+position: absolute;
+margin-left: 410px;
+margin-top: -80px;
+text-align: center;
+}
+
+#rsociaux h3{
+font-family: montezregular;
+font-style: italic;
+font-size: 30px;
+color: #767b79;
+}
+
+/***************************************fin du footer************************/
